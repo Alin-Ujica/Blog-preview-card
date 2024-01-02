@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Figtree';
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.previewcard {
+    width: 280px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    -webkit-box-shadow: 9px 8px 0px 1px #000000;
+    box-shadow: 9px 8px 0px 1px #000000;
+    transition: 200ms ease-in;
+}
+
+.previewcard:hover {
+    scale: 1.02;
+}
+
+.picture {
+    width: 17.5em;
+    height: 11em;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.learning {
+    padding: 10px 15px;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.date {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 50%);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+}
+
+h2 {
+    margin-left: 10px;
+    font-weight: 900;
+}
